@@ -1,0 +1,188 @@
+:root{
+    --pr-color : #000000;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ECF9FF;
+    
+}
+
+/* navbar style*/
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link.active{
+    font-weight: 500;
+}
+.nav-link{
+    font-size: 16px;
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color:rgb(0, 108, 208);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-secundary{
+    width: 133px;
+    height: 40px;
+    background-color:transparent;
+    color:var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* hero section*/
+#hero{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #FEFF86 ;
+    height: 64vh;
+    
+}
+
+
+
+.hero-tagline h1{
+    color:#000000;
+     font-weight:700 ;
+     font-size:50px ;
+     line-height:  72px; 
+    
+}
+.hero-tagline p{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 65px;
+    margin-top: 30px;
+    line-height: 40px;
+    width: 90%;
+}
+.hero-tagline img{
+    object-fit: fill;
+    height: 51%;
+    margin-bottom: auto;
+
+}
+.layanan,
+.keunggulan,
+.tentang,
+.kontak{
+    padding: 8rem,7% 1.4rem;
+}
+footer .socials a{
+    color: #fff;
+    margin: 1rem;
+}
+footer{
+    
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+footer .socials{
+    padding: 1rem 0;
+}
+
+#layanan{
+  padding: 50px 50px;
+}
+h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: white;
+    background-color: #0079FF;
+}
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+.keunggulan h2 {
+    padding-top: 80px;
+}
+
+.card-poto{
+    
+    height: 400px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-style: outset;
+}
+
+.card-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-text{
+    text-align: justify;
+}
+#tentang{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.tentang-foto{
+    padding-left: 30px;
+}
+
+
+.tentang h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.tentang-potone{
+    width: 200;
+    height: 300;
+}
+
+.keunggulan{
+    background-color: #ECF9FF ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.keunggulan h2{
+    font-weight: 200;
+    font-size: 50px;
+}
+.kontak{
+    margin-top: 3rem;
+    display: inline-block;
+    margin-top: 80px;
+
+}
+.kontak h2{
+    display: flex;
+    font-weight: 700;
+    font-size: 50px;
+  
+}
+
+    
+
+
