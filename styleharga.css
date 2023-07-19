@@ -1,0 +1,42 @@
+body{
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.harga{
+    background-color:#FEFF86 ;
+}
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    color: #fff;
+    background-color: #3F979B;
+}
+.lingkaran i {
+    position:relative ;
+    top: 30px;
+    
+}
+.button-primary{
+    width: 133px;
+    height: 40px;
+    background-color:rgb(0, 108, 208);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button-secundary{
+    width: 133px;
+    height: 40px;
+    background-color:transparent;
+    color:var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+}
+.pesanan{
+    background-color: #C0EEE4;
+}

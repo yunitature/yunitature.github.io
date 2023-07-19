@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pesan</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+     <!--Font Google -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+     <!--My style-->
+     <link rel="stylesheet" href="styledaftar.css">
+ 
+     <!--Logo-->
+     <link rel="icon" href="logo1.jpg" type="image/x-icon">
+
+  
+</head>
+<body>
+  <section id="baru">
+    <div class="container-fluid banner ">
+        <div class="container text-center">
+            <h1 class="fw-bold ">Pesan Tukang</h1>
+            <div class="col-lg-12">
+              </div>
+         
+        
+        </div>
+      </section>
+
+      <section id="satu">
+        <div class="container-fluid pt-5 pb-5"></div>
+      </section>
+      <section id="Deskripsi">
+        <div class="container text-align">
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Deskripsi Masalah</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"placeholder="Gambarkan masalah yang ingin kamu perbaiki dengan jelas dan sesuai " ></textarea><br> 
+          <form>
+          <div class="row mb-3">
+                <label for="inputNama" class="col-sm-2 col-form-label">Nama Lengkap</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="Nama lengkapmu...">
+                </div>
+              </div>
+         
+            <div class="row mb-3">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control"  placeholder="emailmu@.com">
+
+              </div>
+            </div>
+            
+            
+              <div class="row mb-3">
+                <label for="inputnotelepon" class="col-sm-2 col-form-label">No telepon</label>
+                <div class="col-sm-10">
+                  <input type="number" class="form-control" placeholder="0821...">
+                </div>
+              </div>
+              <div class="row mb-3">
+                <label for="inputAlamat" class="col-sm-2 col-form-label">Alamat</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" placeholder="Alamat lengkapmu">
+                </div>
+              </div>
+            
+            <fieldset class="row mb-3">
+              <legend class="col-form-label col-sm-2 pt-0">Layanan</legend>
+              <div class="col-sm-10">
+               
+                <div class="col-auto">
+                  <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                  <select class="form-select" id="autoSizingSelect">
+                    <option selected>Layanan</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="1">re</option>
+                    <option value="2">Tw\o</option>
+                    <option value="3">Thee</option>
+                    <option value="1">Onke</option>
+                    <option value="2">Twof</option>
+                    <option value="3">Threee</option>
+                  </select>
+                </div><br>
+
+                </div>
+                <div class="row mb-3">
+                  <label for="inputNama" class="col-sm-2 col-form-label">Jumlah tukang</label>
+                  <div class="col-sm-10">
+                    <input type="number" class="form-control" >
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label for="inputNama" class="col-sm-2 col-form-label">Waktu </label>
+                  <div class="col-sm-10">
+                    <input type="date" class="form-control">
+                    <div class="col-auto">
+                    <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                  <select class="form-select" id="autoSizingSelect">
+                    <option selected>Hari</option>
+                    <option value="1">Full</option>
+                    <option value="2">Satengah hari</option>
+                  </select>
+                  </div>
+                </div>
+                </div><br>
+
+                <div class="row mb-3">
+                  <label for="inputbayar" class="col-sm-3 col-form-label">Pembayaran</label>
+                  
+                    <div class="col-auto">
+                      <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                    <select class="form-select" id="autoSizingSelect">
+                      <option selected>Jenis</option>
+                      <option value="1">Cash</option>
+                      <option value="2">Kartru kredit</option>
+                      <option value="3">Mobile banking</option>
+
+                    </select>
+                    </div>
+                  </div>
+                </div>                
+
+                
+
+              </div>
+              
+
+                
+              
+            </fieldset>
+            <div class="row mb-3">
+             
+            </div>
+            <div class="text-center">
+            <button type="submit" class="btn btn-primary ">Pesan</button>
+            </div>
+          </form>
+          <br>
+        </div>
+        </div>
+      </div>
+      </section>
+      
+           
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
